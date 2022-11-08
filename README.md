@@ -1,35 +1,32 @@
 # redberry-interns-vue-i18n
 
-This template should help get you started developing with Vue 3 in Vite.
+I created this application as a i18n guideline for redberry interns.
 
-## Recommended IDE Setup
+## Tech Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- vue 3
+- i18n v9.x
 
 ## Project Setup
+
+```sh
+git clone https://github.com/BekaBadzagua/redberry-interns-vue-i18n
+```
+
+```sh
+cd redberry-interns-vue-i18n
+```
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Serve the Application
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Documentation
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- [i18n](https://vue-i18n.intlify.dev/guide/)
