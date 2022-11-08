@@ -1,10 +1,12 @@
 <script setup>
 import { RouterView } from "vue-router";
 import LanguageSelect from "@/components/shared/LanguageSelect.vue";
+import Navigation from "@/components/navigation/Navigation.vue";
 </script>
 
 <template>
   <div class="content">
+    <Navigation />
     <LanguageSelect />
     <RouterView />
   </div>
