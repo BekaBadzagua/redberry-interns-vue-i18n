@@ -16,7 +16,8 @@ import LanguageSelect from "@/components/shared/LanguageSelect.vue";
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 30px;
   background-color: rgb(212, 212, 212);
 }
 </style>
