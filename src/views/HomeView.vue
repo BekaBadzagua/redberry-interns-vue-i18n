@@ -1,5 +1,7 @@
 <script setup></script>
 
 <template>
-  <main>Home View</main>
+  <div>
+    <h1>Simple Translations</h1>
+  </div>
 </template>

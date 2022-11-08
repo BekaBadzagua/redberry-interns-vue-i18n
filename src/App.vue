@@ -1,9 +1,11 @@
 <script setup>
 import { RouterView } from "vue-router";
+import LanguageSelect from "@/components/shared/LanguageSelect.vue";
 </script>
 
 <template>
   <div class="content">
+    <LanguageSelect />
     <RouterView />
   </div>
 </template>
@@ -11,6 +13,7 @@ import { RouterView } from "vue-router";
 <style scoped>
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
