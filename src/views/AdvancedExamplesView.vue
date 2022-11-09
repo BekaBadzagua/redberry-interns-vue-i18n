@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="wrapper">
     <div class="centered">
       <h2>Advanced Translations</h2>
 
@@ -39,8 +39,34 @@
           >Link</a
         >
       </p>
+
+      <h3>4. Datetime Formatting</h3>
+      <p>en - {{ $d(new Date(), "short") }}</p>
+      <p>ja-JP - {{ $d(new Date(), "short", "ja-JP") }}</p>
+      <p>en - {{ $d(new Date(), "long", "en") }}</p>
+      <p>ja-JP - {{ $d(new Date(), "long", "ja-JP") }}</p>
+
+      <h3>5. Number Formatting</h3>
+      <p>en - {{ $n(987654321, "currency") }}</p>
+      <p>ja-JP - {{ $n(987654321, "currency", "ja-JP") }}</p>
+
+      <p>en - {{ $n(987654321, "currency", { notation: "compact" }) }}</p>
+      <p>
+        ja-JP -
+        {{ $n(987654321, "currency", "ja-JP", { notation: "compact" }) }}
+      </p>
+
+      <p>en - {{ $n(0.99123, "percent") }}</p>
+      <p>ja-JP - {{ $n(0.99123, "percent") }}</p>
+
+      <p>en - {{ $n(987654321.123123, "decimal") }}</p>
+      <p>ja-JP - {{ $n(987654321.123123, "decimal", "ja-JP") }}</p>
     </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.wrapper {
+  width: 40rem;
+}
+</style>

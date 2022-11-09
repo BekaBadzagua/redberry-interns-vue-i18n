@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="wrapper">
     <div class="centered">
       <h2>Simple Translations</h2>
 
@@ -86,5 +86,8 @@ li {
 h1 {
   margin-top: 30px;
   text-align: center;
+}
+.wrapper {
+  width: 56rem;
 }
 </style>
