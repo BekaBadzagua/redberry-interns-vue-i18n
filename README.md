@@ -2,6 +2,8 @@
 
 I created this application as a i18n guideline for redberry interns.
 
+Netlify Link - https://heartfelt-piroshki-c31d60.netlify.app/
+
 ## Tech Stack
 
 - vue 3
